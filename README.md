@@ -9,11 +9,11 @@ Tenha um editor de código pronto para escrever HTML e CSS (VSCode, Sublime, etc
 
 - Crie uma estrutura básica de pasta:
 ```
-  src/
-    assets/
-      (imagens usadas no projeto)
-     index.html
-     style.css
+src/
+assets/
+(imagens usadas no projeto)
+index.html
+style.css
 ```
 
 ## 🔨 Requisitos

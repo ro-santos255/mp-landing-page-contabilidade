@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+@layer theme {
+  :root {
+  --kulim-park-font: 'Kulim Park', sans-serif;
+  --Background: #000000;
+  --Buttons: #DF994E;
+  --Text: #FFFFFF;
+  --Secondary-text:#666666;
+  }
+}
+
+body {
+  font-family: var(--kulim-park-font);
+}
+h1, h2, h3, h4, h5, h6, p {
+  font-family: var(--kulim-park-font);
+}
+
+.kulim-park-regular {
+  font-family: "Kulim Park", sans-serif;
+}
+
+.subtitulo {
+  font-family: "Kulim Park", sans-serif;
+  color: var(--Buttons);
+}

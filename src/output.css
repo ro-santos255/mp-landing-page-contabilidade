@@ -514,11 +514,53 @@
   .bg-white {
     background-color: var(--color-white);
   }
+  .bg-\[url\(\'\'\)\] {
+    background-image: url('');
+  }
+  .bg-\[url\(\'\,\/\'\)\] {
+    background-image: url(',/');
+  }
+  .bg-\[url\(\'\.\.\/\'\)\] {
+    background-image: url('../');
+  }
+  .bg-\[url\(\'\.\.\/assets\'\)\] {
+    background-image: url('../assets');
+  }
+  .bg-\[url\(\'\.\.\/assets\/\'\)\] {
+    background-image: url('../assets/');
+  }
+  .bg-\[url\(\'\.\.\/assets\/bg-desktop\.jpg\'\)\] {
+    background-image: url('../assets/bg-desktop.jpg');
+  }
+  .bg-\[url\(\'\.\/\'\)\] {
+    background-image: url('./');
+  }
   .bg-\[url\(\'\.\/assets\/bg-desktop\.jpg\'\)\] {
     background-image: url('./assets/bg-desktop.jpg');
   }
+  .bg-\[url\(\'\.\/src\/assets\/bg-desktop\.jpg\'\)\] {
+    background-image: url('./src/assets/bg-desktop.jpg');
+  }
+  .bg-\[url\(\'\.assets\/bg-desktop\.jpg\'\)\] {
+    background-image: url('.assets/bg-desktop.jpg');
+  }
+  .bg-\[url\(\'\.src\/assets\/bg-desktop\.jpg\'\)\] {
+    background-image: url('.src/assets/bg-desktop.jpg');
+  }
+  .bg-\[url\(\'\.ssrcrc\/assets\/bg-desktop\.jpg\'\)\] {
+    background-image: url('.ssrcrc/assets/bg-desktop.jpg');
+  }
   .bg-\[url\(\'\/assets\/bg-desktop\.jpg\'\)\] {
     background-image: url('/assets/bg-desktop.jpg');
+  }
+  .bg-\[url\(\'\/src\/assets\/bg-desktop\.jpg\'\)\] {
+    background-image: url('/src/assets/bg-desktop.jpg');
+  }
+  .bg-\[url\(\'\/srcassets\/bg-desktop\.jpg\'\)\] {
+    background-image: url('/srcassets/bg-desktop.jpg');
+  }
+  .bg-\[url\(\'assets\/bg-desktop\.jpg\'\)\] {
+    background-image: url('assets/bg-desktop.jpg');
   }
   .bg-cover {
     background-size: cover;
